@@ -1,0 +1,70 @@
+/* General body styling */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.w3-container {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+/* Card styling */
+.w3-card-4 {
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+/* Headings */
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Buttons */
+button, .w3-button {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Table styling */
+.w3-table-all {
+    margin-top: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.w3-table-all th {
+    background-color: #4CAF50 !important;
+    color: white;
+    text-align: center;
+}
+
+.w3-table-all td {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Success and error messages */
+.w3-text-green {
+    font-weight: bold;
+}
+
+.w3-text-red {
+    font-weight: bold;
+}
